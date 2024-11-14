@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Game {
     private final WordBook wordBook;
-    private final ArrayList<Character> checkedLetters = new ArrayList<Character>();
+    private final ArrayList<Character> checkedLetters = new ArrayList<>();
     private String word;
     private String wordLowerCase;
     private String mysteryWord;
